@@ -1,0 +1,94 @@
+header {
+    min-height: 70px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.header__menu {
+ display: none;
+}
+
+.header__logo {
+    flex: 1;
+}
+
+header a {
+    text-transform: uppercase;
+    color: #555;
+}
+
+header ul li {
+    display: inline-block;
+    opacity: 0.7;
+    padding: 0 20px;
+}
+
+header ul li:hover {
+    opacity: 1;
+}
+
+.header__cart-icon {
+    position: relative;
+    margin-right :20px
+}
+
+.header__cart-icon span {
+    background: crimson;
+    border-radius: 20px;
+    color: #fff;
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    padding: 5px 7px;
+    font-size: 10px;
+}
+
+/* @media (min-width: 820px) {
+    header .header__logo {
+        max-width: 115px;
+        flex: none;
+    }
+
+    header ul {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 720px) {
+    header ul {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100vh;  
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        opacity: 0.98;
+        z-index: 99;
+        transition: 0.5s ease-in;
+    }
+
+    header .header__menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    header ul li .header__menu {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+} */
+
